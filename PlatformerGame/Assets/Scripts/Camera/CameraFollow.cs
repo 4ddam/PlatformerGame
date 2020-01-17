@@ -5,11 +5,11 @@ public class CameraFollow : MonoBehaviour
 {
 
     [Tooltip("The thing to follow")]public Controller2D target;
-    public float verticalOffset;
-    public float lookAheadDstX;
-    public float lookSmoothTimeX;
-    public float verticalSmoothTime;
-    public Vector2 focusAreaSize;
+    public float verticalOffset;            // 1
+    public float lookAheadDstX;             // 4
+    public float lookSmoothTimeX;           // 0.5
+    public float verticalSmoothTime;        // 0.2
+    public Vector2 focusAreaSize;           // 3, 5
 
     FocusArea focusArea;
 
