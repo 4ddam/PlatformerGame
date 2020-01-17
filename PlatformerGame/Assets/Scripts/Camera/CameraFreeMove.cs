@@ -35,8 +35,7 @@ public class CameraFreeMove : MonoBehaviour {
         }
         else {
             cam.GetComponent<CameraFollow>().enabled = true;
-            player.GetComponent<Player>().enabled = true;
-           
+            player.GetComponent<Player>().enabled = true;           
         }
     }
 
